@@ -1,0 +1,10 @@
+[package]
+name = "task"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-queue = { version="0.3.11", features=["alloc"]}
+conquer-once = "0.2.0"
+futures-util = { version="0.3.4", features=["alloc"]}
+pc-keyboard = "0.8.0"
